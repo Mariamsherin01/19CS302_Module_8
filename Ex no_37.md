@@ -45,3 +45,45 @@ Explanation
 When we sum the integers 10 and 4, we get the integer 14. When we subtract the second number 4 from the first number 10, we get 6 as their difference.
 
 When we sum the floating-point numbers 4.0 and 2.0, we get 6.0. When we subtract the second number 2.0 from the first number 4.0, we get 2.0 as their difference.
+
+
+## Algorithm
+1. Declare two int variables and two float variables.
+2. Read two integers from input and assign them to the int variables.
+3. Read two float numbers from input and assign them to the float variables.
+4. Calculate and print the sum and difference of the two integers.
+5. Calculate and print the sum and difference of the two floats rounded to one decimal place.
+
+## Program
+```
+#include<stdio.h>
+int main()
+{
+    int x,y;
+    float a,b;
+    scanf("%d %d",&x,&y);
+    scanf("%f %f",&a,&b);
+    printf("%d %d\n",x+y,x-y);
+    printf("%.1f %.1f",a+b,a-b);
+    
+}
+#include<stdio.h>
+int main()
+{
+    int x,y;
+    float a,b;
+    scanf("%d %d",&x,&y);
+    scanf("%f %f",&a,&b);
+    printf("%d %d\n",x+y,x-y);
+    printf("%.1f %.1f",a+b,a-b);
+    
+}
+```
+
+## Output
+
+![image](https://github.com/user-attachments/assets/5583295b-3e42-40ba-8dfc-bbdc179f9191)
+
+## Result
+
+Thus the program was executed and the output was verified successfully.
